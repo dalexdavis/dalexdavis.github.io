@@ -12,7 +12,7 @@ const projectsData = [
         id: 2,
         title: "Asphira",
         description: "A location-based mobile app that analyses real crime data to generate clear, reliable safety scores for any area. Helps you understand how safe a place is before you travel, commute, or explore.",
-        category: "mobile app",
+        category: "mobile",
         imageUrl: "/images/projectImages/asphira.jpeg",
         projectUrl: "https://github.com/dalexdavis/Asphira.git",
         tags: ["React Native", "TypeScript", "Personal Safety"]
