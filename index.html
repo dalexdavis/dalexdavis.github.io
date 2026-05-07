@@ -16,27 +16,58 @@
     />
     <meta name="author" content="Dalex Davis" />
     <meta name="robots" content="index, follow" />
-    <meta name="google-site-verification" content="Y4gTg4NS9pOneaJXLIReHqGEeghwtzjCJehY5sTZnqc" />
+    <meta
+      name="google-site-verification"
+      content="Y4gTg4NS9pOneaJXLIReHqGEeghwtzjCJehY5sTZnqc"
+    />
     <link rel="canonical" href="https://dalexdavis.github.io" />
 
     <!-- ─── OPEN GRAPH ───────────────────────────── -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dalexdavis.github.io/" />
-    <meta property="og:title" content="Dalex Davis | Computer Science Student & Software Engineer" />
-    <meta property="og:description" content="Dalex Davis is a Computer Science student at Manchester Metropolitan University building innovative software, mobile apps, and AI-powered tools." />
-    <meta property="og:image" content="https://dalexdavis.github.io/images/DALEXIMG.jpg" />
+    <meta
+      property="og:title"
+      content="Dalex Davis | Computer Science Student & Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Dalex Davis is a Computer Science student at Manchester Metropolitan University building innovative software, mobile apps, and AI-powered tools."
+    />
+    <meta
+      property="og:image"
+      content="https://dalexdavis.github.io/images/DALEXIMG.jpg"
+    />
     <meta property="og:site_name" content="Dalex Davis" />
 
     <!-- ─── TWITTER CARD ─────────────────────────── -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@thedalexdavis" />
-    <meta name="twitter:title" content="Dalex Davis | Computer Science Student & Software Developer" />
-    <meta name="twitter:description" content="Dalex Davis is a Computer Science student at Manchester Metropolitan University building innovative software, mobile apps, and AI-powered tools." />
-    <meta name="twitter:image" content="https://dalexdavis.github.io/images/DALEXIMG.jpg" />
+    <meta
+      name="twitter:title"
+      content="Dalex Davis | Computer Science Student & Software Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Dalex Davis is a Computer Science student at Manchester Metropolitan University building innovative software, mobile apps, and AI-powered tools."
+    />
+    <meta
+      name="twitter:image"
+      content="https://dalexdavis.github.io/images/DALEXIMG.jpg"
+    />
 
     <!-- ─── FAVICON ───────────────────────────────── -->
-    <link rel="icon" href="/images/DX-LOGO.png" type="image/png" sizes="192x192" />
-    <link rel="icon" href="/images/DX-LOGO0.png" type="image/png" sizes="48x48" />
+    <link
+      rel="icon"
+      href="/images/DX-LOGO.png"
+      type="image/png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="/images/DX-LOGO0.png"
+      type="image/png"
+      sizes="48x48"
+    />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/DX-LOGO.png" />
 
     <!-- ─── JSON-LD SCHEMA ───────────────────────── -->
@@ -79,7 +110,8 @@
               "Electron",
               "Business",
               "startup",
-              "economics"
+              "economics",
+              "science"
             ]
           },
           {
@@ -98,6 +130,16 @@
             "isPartOf": { "@id": "https://dalexdavis.github.io/#website" },
             "about": { "@id": "https://dalexdavis.github.io/#person" },
             "description": "Portfolio of Dalex Davis — projects, research, experience, and software releases."
+          },
+
+          {
+            "@type": "WebPage",
+            "@id": "https://newminal.com/#webpage",
+            "url": "https://newminal.com/",
+            "name": "Newminal — Personalized Information Pipeline",
+            "isPartOf": { "@id": "https://dalexdavis.github.io/#website" },
+            "about": { "@id": "https://dalexdavis.github.io/#person" },
+            "description": "Newminal is a personalized information pipeline where users can follow any topic, customize their feed with powerful tools, and stay informed from a single terminal. currently been developed by dalex davis"
           }
         ]
       }
@@ -116,22 +158,12 @@
     <script src="static/education-data.js"></script>
     <script src="static/store-data.js"></script>
   </head>
-  <body>
-    <img src="/images/outlineersss/birdoutline.png" class="bg-img img1">
-<img src="/images/outlineersss/paraoterrr.png" class="bg-img img2">
-<img src="/images/outlineersss/history.png" class="bg-img img3">
+  <body data-page="home">
+    <img src="/images/outlineersss/birdoutline.png" class="bg-img img1" />
+    <img src="/images/outlineersss/paraoterrr.png" class="bg-img img2" />
+    <img src="/images/outlineersss/history.png" class="bg-img img3" />
 
-    <!-- NAV -->
-    <nav class="nav">
-      <a href="#" class="nav-logo">DX</a>
-      <div class="nav-links">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="dx-store.html" class="nav-link">DX's Store</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-    </nav>
+    <div data-shared-nav></div>
 
     <div class="container">
       <!-- HERO -->
@@ -292,23 +324,23 @@
         <p class="section-label">About me</p>
         <div class="about-grid">
           <div class="about-image-wrap">
-            <img
-              src="/images/meee.png"
-              alt="Dalex Davis"
-              class="profile-img"
-            />
+            <img src="/images/meee.png" alt="Dalex Davis" class="profile-img" />
           </div>
           <div class="about-body">
             <h2 class="section-heading">
               Building things that<br /><em>matter.</em>
             </h2>
             <p class="about-text">
-              I'm passionate about building innovative solutions and exploring the intersection of technology, organisations and art. I'm continuously learning, gaining hands on experience, and refining my craft with a strong interest in creative technology and economics.
+              I'm passionate about building innovative solutions and exploring
+              the intersection of technology, organisations and art. I'm
+              continuously learning, gaining hands on experience, and refining
+              my craft with a strong interest in creative technology and
+              economics.
             </p>
             <p class="about-text">
-              My focus is on transforming ideas into scalable
-              solutions. I enjoy tackling problems and building systems
-              that create real world impact, while drawing inspiration from my surroundings.
+              My focus is on transforming ideas into scalable solutions. I enjoy
+              tackling problems and building systems that create real world
+              impact, while drawing inspiration from my surroundings.
             </p>
             <div class="about-actions">
               <a
@@ -339,6 +371,19 @@
         <h2 class="section-heading">
           Things I've shipped<br /><em>into the world.</em>
         </h2>
+
+        <!-- Citynoise -->
+        <div class="featured-card releases-featured-card">
+          <h2 class="featured-title">newminal</h2>
+          <p class="featured-desc">
+            newminal is a personalized information pipeline where users can
+            follow any topic, customize their feed with powerful tools, and stay
+            informed from a single terminal.
+          </p>
+          <a href="https://newminal.com" target="_blank" class="btn-primary"
+            >Visit newminal →</a
+          >
+        </div>
 
         <!-- Software — rendered from store-data.js -->
         <div class="store-list" id="software-grid-home"></div>
@@ -436,82 +481,12 @@
         </div>
       </div>
 
-      <!-- FOOTER -->
-      <footer class="footer" id="contact">
-        <div class="footer-inner">
-          <div>
-            <p class="footer-logo">Dalex <em>Davis</em></p>
-            <p class="footer-tagline">
-              This is my digital book — ideas, experiences, and whatever I'm up
-              to.
-            </p>
-          </div>
-          <div class="footer-links">
-            <a href="mailto:thedalexdavis@gmail.com" class="footer-link"
-              >Email</a
-            >
-            <a
-              href="https://www.linkedin.com/in/dalexdavis"
-              target="_blank"
-              class="footer-link"
-              >LinkedIn</a
-            >
-            <a
-              href="https://github.com/dalexdavis"
-              target="_blank"
-              class="footer-link"
-              >GitHub</a
-            >
-            <a
-              href="https://x.com/thedalexdavis"
-              target="_blank"
-              class="footer-link"
-              >X</a
-            >
-            <a
-              href="https://www.instagram.com/thedalexdavis"
-              target="_blank"
-              class="footer-link"
-              >Instagram</a
-            >
-            <a
-              href="https://medium.com/@thedalexdavis"
-              target="_blank"
-              class="footer-link"
-              >Medium</a
-            >
-            <a
-              href="https://huggingface.co/thedalex"
-              target="_blank"
-              class="footer-link"
-              >Hugging Face</a
-            >
-            <a
-              href="https://dalexdavis.substack.com"
-              target="_blank"
-              class="footer-link"
-              >Substack</a
-            >
-            <a
-              href="https://citynoisepage.vercel.app"
-              target="_blank"
-              class="footer-link"
-              >citynoise</a
-            >
-          </div>
-        </div>
-        <p class="footer-copy">
-          ©
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          Dalex Davis
-        </p>
-      </footer>
+      <div data-shared-footer></div>
     </div>
     <!-- /container -->
 
     <!-- JS modules -->
+    <script src="static/layout.js"></script>
     <script src="static/projects.js"></script>
     <script src="static/research.js"></script>
     <script src="static/experience.js"></script>

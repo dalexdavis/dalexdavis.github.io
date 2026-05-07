@@ -63,17 +63,8 @@
     />
     <link rel="stylesheet" href="static/style.css" />
   </head>
-  <body>
-    <!-- NAV -->
-    <nav class="nav">
-      <a href="/" class="nav-logo">DX</a>
-      <div class="nav-links">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/#projects" class="nav-link">Projects</a>
-        <a href="/#experience" class="nav-link">Experience</a>
-        <a href="/#contact" class="nav-link">Contact</a>
-      </div>
-    </nav>
+  <body data-page="store">
+    <div data-shared-nav></div>
 
     <div class="container">
       <!-- HERO -->
@@ -101,74 +92,10 @@
         <div class="store-list" id="store-list"></div>
       </section>
 
-      <!-- FOOTER -->
-      <footer class="footer" id="contact">
-        <div class="footer-inner">
-          <div>
-            <p class="footer-logo">Dalex <em>Davis</em></p>
-            <p class="footer-tagline">
-              This is my digital book — ideas, experiences, and whatever I'm up
-              to.
-            </p>
-          </div>
-          <div class="footer-links">
-            <a href="mailto:thedalexdavis@gmail.com" class="footer-link"
-              >Email</a
-            >
-            <a
-              href="https://www.linkedin.com/in/dalexdavis/"
-              target="_blank"
-              class="footer-link"
-              >LinkedIn</a
-            >
-            <a
-              href="https://github.com/dalexdavis"
-              target="_blank"
-              class="footer-link"
-              >GitHub</a
-            >
-            <a
-              href="https://x.com/thedalexdavis"
-              target="_blank"
-              class="footer-link"
-              >X</a
-            >
-            <a
-              href="https://medium.com/@thedalexdavis"
-              target="_blank"
-              class="footer-link"
-              >Medium</a
-            >
-            <a
-              href="https://huggingface.co/thedalex"
-              target="_blank"
-              class="footer-link"
-              >Hugging Face</a
-            >
-            <a
-              href="https://dalexdavis.substack.com"
-              target="_blank"
-              class="footer-link"
-              >Substack</a
-            >
-            <a
-              href="https://citynoisepage.vercel.app"
-              target="_blank"
-              class="footer-link"
-              >citynoise</a
-            >
-          </div>
-        </div>
-        <p class="footer-copy">
-          ©
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          Dalex Davis
-        </p>
-      </footer>
+      <div data-shared-footer></div>
     </div>
 
+    <script src="static/layout.js"></script>
     <script src="static/store-data.js"></script>
     <script>
       const platformIcons = {
@@ -322,3 +249,6 @@
     </script>
   </body>
 </html>
+
+
+
